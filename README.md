@@ -43,6 +43,38 @@
 
         /usr/local/bin/digidoc-tool
 
+### Fedora
+
+1. Install dependencies
+
+        sudo dnf install cmake xml-security-c-devel xsd openssl-devel
+
+	* doxygen - Optional, for API documentation
+	* boost-devel - Optional, for unittests
+
+2. Fetch the source
+
+        git clone --recursive https://github.com/open-eid/libdigidocpp
+        cd libdigidocpp
+
+3. Configure
+
+        mkdir build
+        cd build
+        cmake ..
+
+4. Build
+
+        make
+
+5. Install
+
+        sudo make install
+
+6. Execute
+
+        /usr/local/bin/digidoc-tool
+
 ### OSX
 
 1. Install dependencies from
