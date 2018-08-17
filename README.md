@@ -47,7 +47,7 @@
 
 1. Install dependencies
 
-        sudo dnf install cmake xml-security-c-devel xsd openssl-devel
+        sudo dnf install cmake xml-security-c-devel xsd openssl-devel libdigidocpp-devel
 
 	* doxygen - Optional, for API documentation
 	* boost-devel - Optional, for unittests
